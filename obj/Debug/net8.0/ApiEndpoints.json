@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "G_Scores.Controllers.StudentController",
+    "Method": "GetStudents",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G_Scores.Controllers.StudentController",
+    "Method": "GetStudentBySbd",
+    "RelativePath": "api/Student/{sbd}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sbd",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G_Scores.Controllers.StudentController",
+    "Method": "GetScoreStatistics",
+    "RelativePath": "api/Student/ScoreStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G_Scores.Controllers.StudentController",
+    "Method": "GetTopAStudents",
+    "RelativePath": "api/Student/TopAStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
